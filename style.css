@@ -3,7 +3,7 @@
   padding: 0;
 }
 #fotka {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 150px;
 }
 
@@ -25,12 +25,18 @@ nav {
   cursor: pointer;
   color: white;
 }
+#li1 > a {
+  border-bottom: 1px solid;
+  border-color: white;
+  padding-bottom: 10px;
+}
 #li6 a {
   border: 1px solid white;
   background-color: white;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
+
 .mt-kont {
   display: flex;
   position: absolute;
@@ -43,6 +49,7 @@ main h2 {
   position: absolute;
   top: 50%;
   left: 8.5%;
+  margin-top: -25px;
 }
 .mt-kont div h3 {
   padding-top: 40px;
