@@ -9,7 +9,7 @@
 
 nav {
   background-color: blue;
-  height: 150px;
+  height: 100px;
 }
 .sia {
   display: flex;
@@ -18,10 +18,49 @@ nav {
   gap: 20px;
   list-style: none;
   margin-right: 40px;
-  margin-top: -30px;
+  margin-top: -45px;
 }
 .sia a {
   all: unset;
   cursor: pointer;
   color: white;
+}
+.mt-kont {
+  display: flex;
+  position: absolute;
+  top: 55%;
+  left: 8.5%;
+  flex-direction: row;
+  gap: 100px;
+}
+main h2 {
+  position: absolute;
+  top: 50%;
+  left: 8.5%;
+}
+.mt-kont div h3 {
+  padding-top: 40px;
+}
+
+#pir {
+  border: 5px solid #f9f9f9;
+  padding: 25px 25px;
+  padding-top: 5px;
+  background-color: #f9f9f9;
+}
+
+#meo {
+  border: 5px solid white;
+  padding: 25px 25px;
+  padding-top: 5px;
+  background-color: blue;
+}
+#mesa {
+  border: 5px solid #f9f9f9;
+  padding: 25px 25px;
+  padding-top: 5px;
+  background-color: #f9f9f9;
+}
+.qv-sat {
+  margin-bottom: 15px;
 }
