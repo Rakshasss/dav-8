@@ -49,7 +49,7 @@ main h2 {
   position: absolute;
   top: 50%;
   left: 8.5%;
-  margin-top: -25px;
+  margin-top: -40px;
 }
 .mt-kont div h3 {
   padding-top: 40px;
@@ -76,4 +76,12 @@ main h2 {
 }
 .qv-sat {
   margin-bottom: 15px;
+}
+.burti {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  gap: 10px;
+  top: 44%;
+  left: 90%;
 }
